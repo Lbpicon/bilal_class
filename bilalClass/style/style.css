@@ -1,55 +1,120 @@
-nav {
-    background-color: #7bc67b;
-    width: 100%;
-    height: 35%;
-    padding: 30px;
-    display: inline-block;
-    text-align: center;
-    color: white;
-    font-size: 35px;
-    font-family: 'Segoe UI';
-    padding-right: 15px;
-    text-decoration-style: none;
-}
-
-#hello {
-    color: white;
-    font-size: 35px;
-    font-family: 'Segoe UI';
-    padding-right: 15px;
-}
-    
-
-.middleMenu {
-    display: flex;
-    width: 100%;
-    background-color: #7bc67b;
-}
-
-.middleMenu > .container {
-    margin: 10px;
-    padding: 20px;
-    font-size: 30px;
-    margin-left: 35%;
-    margin-top: 10%;
-    background-color: #7bc67b;
-    
-  }
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
 
 h1 {
     text-align: center;
-    font-family: 'Alegreya Sans SC', sans-serif,;
+    color: white;
+    font-size:35px;
+    display: inline;
+    float: right;
+    margin-top: 20px;
+    padding-right: 40px;
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 100;
+     }
+                   
+
+h2 {
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
     font-size: 80px;
+    margin-top: 100px;
+    color: #707070;
+            }
+
+.banner {
+    width: 100%;
+    height:100px;
+    background-color: #1687a7;
+    }
+
+/* NAVIGATION STYLING*/
+
+.main-nav {
+    display: inline-flexbox;
+    float: left;
+    width: 300px;
+    background-color: #1687A7;
+    font-family: 'Quicksand', sans-serif;
+    margin-top: 20px;
+    }
+
+
+.main-nav a {
+        display: block;
+        padding: 10px 0px 10px 20px;
+        text-transform: uppercase;
+        letter-spacing: .2em;
+        color: #fff;
+        border-bottom: 1px dotted gray;
+        }
+
+.main-nav a:hover {
+    background: #014955;
 }
 
-.greeting {
-    background-color: #fabc60;
-    width: 100%;
-    height: 30%;
+.main-nav-ul ul { 
+    display: none;
+    }
+
+.main-nav-ul li:hover ul {
+    display: block;
+}
+
+.main-nav-ul ul a::before {
+content: '\203A';
+margin-right: 20px;
+}
+
+.main-nav .sub-arrow:after {
+    content: '\203A';
+    float: right;
+    margin-right: 20px;
+    transform: rotate(90deg);
+    -webkit-transform: rotate(90deg);
+    -moz-transform: rotate(90deg);
+}
+
+.main-nav li:hover .sub-arrow:after {
+    content:'\2039';
+
+
+}
+
+
+.bars {
+        width: 300px;
+        height: 30px;
+        margin: 30px;
+         /*display: flex;
+        flex-direction: row;*/
+        display: flex; /* This made the boxes side by side*/
+        position: relative;
+    }
+
+.assignments {
+   background-color: rebeccapurple;
+
+  
+}
+
+.quizzes {
+    background-color: red;
+}
+
+.calendar {
+    background-color: blue
 }
 
 footer {
+    background-color: #014955;
+    position: absolute;
+    bottom: 0;
+    height: 60px;
     width: 100%;
-    background-color: #11144c;
+    
 }
-

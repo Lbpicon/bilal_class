@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    }
+
+
+section {
+    background-color: #2BCDC0;
+    right: 40%;
+    display: flex;
+    position: relative;
+}
+
+
+a {
+    font-family: 'Roboto Slab', serif;
+    padding-right: 10px;
+    color: white;
+    font-size: 15px;
+}
+
+header {
+    justify-content: center;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    top: 10%;
+    background-color: #2BCDC0;
+}
+
+.green {
+    width: 100%;
+    height: 55vh;
+    background-color: #2BCDC0;
+    overflow-x: hidden;
+    }
+
+h1 {
+    color:white;
+    font-size: 50px;
+    font-family: 'Roboto Slab', serif;
+    position: absolute;
+    display: flex;
+    left: 35%;
+    top: 25%;
+
+}
+
+h2 {
+    color: white;
+    top: 40px;
+    font-size: 40px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+h3 {
+    color: white;
+    font-size: 15px;
+
+}
+
+.text {
+    margin-top: 50px;
+    positon: fixed;
+    text-align: center;
+    padding: 10px;
+    
+}
+
+p{
+    color: white;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+
+.black {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 45vh;
+}
+
+.block {
+    width: 300px;
+    height: 30px;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    /*display: flex;
+    flex-direction: row;*/
+    display: inline-block; /* This made the boxes side by side*/
+    position: relative;
+}
+
+.blue {
+    background-color: #33A8DD;
+
+}
+
+.jade {
+    background-color: #2BCDC0;
+}
+
+
+
+.red {
+    background-color: #F46731;
+    position: relative;
+}
+
+footer {
+    background-color: #1B1B1B;
+    width: 100%;
+    height: 90px;
+    
+}
+
+/*CSS 4 MOBILE - must be MAX-WIDTH*/
+@media (max-width: 576px) {
+
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    
+   .green {
+        background-color: #33A8DD;
+        height: 50vh;
+        padding: 30px;
+   }
+
+   .black {
+    background-color:  #F7F5F6;
+    height: 100%;
+    width: 100%;
+    justify-content: center;
+       }
+
+
+   h1 {
+        font-size: 25px;
+        left: 30%;
+   }
+
+   h2 {
+    color: black;
+    top: 40px;
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-family: 'Roboto Slab', serif;
+}
+
+
+p {
+    color: black;
+    font-size: 15px;
+}
+
+
+    footer {
+        background-color: #F7F5F6;
+        width: 100%;
+        height: 40px;
+        
+    }
+
+
+
+}
