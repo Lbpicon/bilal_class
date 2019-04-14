@@ -21,12 +21,12 @@ h1 {
 h2 {
     font-family: 'Quicksand', sans-serif;
     text-align: center;
-    font-size: 80px;
-    margin-top: 100px;
+    font-size: 70px;
+    margin-top: 50px;
+    padding: 20px 40px 40px 40px;
+    margin-bottom: 30px;
     font-weight: 130;
-    color: #707070;
-   
-            }
+    color: #707070; }
 
 .banner {
     width: 100%;
@@ -35,7 +35,7 @@ h2 {
     }
 
 #globe {
-    margin-right: 690px;
+    text-align: center;
     display: flex;
     direction: row;
                                                                                                                                                                                                 
@@ -107,10 +107,37 @@ margin-right: 20px;
            }
 
 .text {
-        margin-right: 50px;
-        padding: 30px;
-        font-family: 'Quicksand', sans-serif;
-        text-align: center;
+    width: 200px;
+    word-wrap: break-word;
+    font-family: 'Quicksand', sans-serif;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 100px;
+    color: black;
+    font-weight: 600;
+    margin-top: 30px;
+}
+
+.images {
+display: flex;
+  
+}
+
+.calenImg {
+    margin-left:18%; 
+    filter: drop-shadow(2px 2px 2px #8E8F8F);
+    }
+
+.quizzImg {
+    margin-left: 25%;
+    display: flexbox;
+    
+}
+
+.assignImg {
+    margin-left: 23%;
+    filter: drop-shadow(2px 2px 2px #8E8F8F
+    );
 }
 
 .assignments {
@@ -156,10 +183,13 @@ margin-right: 20px;
 
 footer {
     background-color: #014955;
-    position: absolute;
+    position: fixed;
     bottom: 0;
-    height: 60px;
+    height: 40px;
     width: 100%;
+    margin-top: 15px;
+    text-decoration: none;
+
     
 }
 
