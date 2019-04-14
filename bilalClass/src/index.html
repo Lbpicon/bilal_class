@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="../style/animate.css">
     <link rel="stylesheet" type="text/css" href="../style/style.css">
     <link rel="icon" href="https://img.icons8.com/color/48/000000/globe.png">
     <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet">
@@ -14,8 +15,8 @@
 
 <body>
 <div class="banner">
-    <h1>English Class</h1>
-       <nav class ="main-nav">
+    <h1>English Class<img id="globe" src="../images/icons8-globe-96.png"></h1>
+           <nav class ="main-nav">
         <ul class="main-nav-ul">
                 <li><a href="#">Menu<span class="sub-arrow"></span></a>
                 <ul>
@@ -30,17 +31,19 @@
 </div>
 
 <section>
-    <h2>Bilal Says 'Welcome!'</h2>
+    <h2 class="animated bounceInRight delay-1s">Bilal Says 'Welcome!'</h2>
     <div class="images">
-        <div class="assignImg" ></div>
+        <div class="assignImg">
+            <div class="text"><p>Are you all caught up? Here are your lists of assignments for the week.</br>
+             Flank pork meatloaf alcatra salami jowl tongue sirloin andouille corned beef burgdoggen jerky.</p></div></div>
         <div class="quizzImg"></div>
         <div class="calenImg"></div>
     </div>
 
     <div class="bars">
-    <div class="bars assignments">Assignments</div>
-    <div class="bars quizzes">Quizzes</div>
-    <div class="bars calendar">Calendar</div>
+    <div class="bars assignments animated tada delay-2s">Assignments</div>
+    <div class="bars quizzes animated tada delay-3s">Quizzes</div>
+    <div class="bars calendar animated tada delay-4s">Calendar</div>
     </div>
 </section>
 

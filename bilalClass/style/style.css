@@ -12,7 +12,7 @@ h1 {
     display: inline;
     float: right;
     margin-top: 20px;
-    padding-right: 40px;
+    padding-right: 20px;
     font-family: 'Quicksand', sans-serif;
     font-weight: 100;
      }
@@ -34,6 +34,13 @@ h2 {
     background-color: #1687a7;
     }
 
+#globe {
+    margin-right: 690px;
+    display: flex;
+    direction: row;
+                                                                                                                                                                                                
+}
+
 /* NAVIGATION STYLING*/
 
 .main-nav {
@@ -43,6 +50,7 @@ h2 {
     background-color: #1687A7;
     font-family: 'Quicksand', sans-serif;
     margin-top: 20px;
+    position: absolute;
     }
 
 
@@ -91,14 +99,19 @@ margin-right: 20px;
 .bars {
         width: 90vw;
         height: 45px;
-        margin-top: 40px;
+        margin-top: 10px;
         margin-left: 52px;
          /*display: flex;
         flex-direction: row;*/
         display: flex; /* This made the boxes side by side*/
-       
-    }
+           }
 
+.text {
+        margin-right: 50px;
+        padding: 30px;
+        font-family: 'Quicksand', sans-serif;
+        text-align: center;
+}
 
 .assignments {
     background-color:  #F0103E;
@@ -110,11 +123,8 @@ margin-right: 20px;
     padding-top: 2px;
   }
 
-
-  .assignImg {
-    content:url(../images/icons8-globe-96.png);
-    margin-left: 10px; }
-
+.assignments:hover {
+      background-color: #ff5050; }
 
 .quizzes {
     background-color: #F0103E;
@@ -124,8 +134,12 @@ margin-right: 20px;
     display: inline;
     font-size: 30px;
     padding-top: 2px;
+    
 }
 
+.quizzes:hover {
+    background-color: #ff5050;
+}
 .calendar {
     background-color:   #F0103E;
     color: white;
@@ -134,6 +148,10 @@ margin-right: 20px;
     display: inline;
     font-size: 30px;
     padding-top: 2px;
+}
+
+.calendar:hover {
+    background-color: #ff5050;
 }
 
 footer {
