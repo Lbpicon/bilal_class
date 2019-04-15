@@ -99,7 +99,7 @@ margin-right: 20px;
 .bars {
         width: 90vw;
         height: 45px;
-        margin-top: 10px;
+        margin-top: 5px;
         margin-left: 52px;
          /*display: flex;
         flex-direction: row;*/
@@ -120,6 +120,8 @@ margin-right: 20px;
 
 .images {
 display: flex;
+margin-top: 10px;
+
   
 }
 

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"  href="../style/quiz-practice.css">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Quiz Practice</title>
+</head>
+<body>
+<h1>This is a practice quiz.</h1>
+<form id="quiz" name="quiz">
+    
+<p>What is the capital of Texas?</p>
+<input id="textbox" type = "text" name = "question1">
+
+<p>What is the capital of New York?</p>
+<input type ="radio" id ="mc" name="question2" value="Albany">"Albany"<br>
+<input type ="radio" id ="mc" name="question2" value="Albany">"All Benny's"<br>
+
+<input type = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+</form>
+<div id =  "after_submit">
+    <p id = "number_correct">You've finished, good job!</p>
+</div>
+
+<script src="../script/quiz-practice.js"></script>
+</body>
+</html>
+
