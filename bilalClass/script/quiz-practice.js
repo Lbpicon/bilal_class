@@ -1,21 +1,54 @@
-function check(){
+const quizContainer = document.getElementById('quiz');
+const resultsContainer = document.getElementById('results');
+const submitButton = document.getElementById('submit');
 
-    var question1 = document.quiz.question1.value;
-    var question2 = document.quiz.question2.value;
-    var question3 = document.quiz.question3.value;
-    var correct = 0;
-    
-        if (question1 == "Austin") {
-            correct++; 
+function buildQuiz() {}
+
+function showResults() {}
+
+// display quiz right away
+buildQuiz();
+
+//on submit, show results
+submitButton.addEventListener('click,'showResults);
+
+const myQuestions = [
+    {
+        question: "Who is the strongest?",
+
+        answer: {
+            a: "Superman"
+
+            b: "The Terminator"
+
+            c: "Waluigi, obviously"
+        },
+
+        correctAnswer: "c"
     }
-        if (question2 == "Albany") {
-            correct++;
-    }
+];
 
+function buildQuiz() {
+    const output = [];
 
-    document.getElementById("after_submit").style.visibility = "visible";
-    document.getElementById("number_correct").innerHTML = "You got" + correct + " correct.";
-    
+    myQuestions.forEach (
+        (currentQuestion, questionNumber) => {
+        
+        const answers = [];
+
+        for(letter in currentQuestion.answers){
+            answers.push(
+                <label>
+                    <input type="radio" name="questions${questionNumber}" value="${letter}">
+                        ${letter} :
+                        ${currentQuestion.answers[letter]}
+                </label>
+            );
+
+        }
+
+        }
+    )
+
 
 }
-

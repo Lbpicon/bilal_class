@@ -1,3 +1,7 @@
-#after_submit {
-    
-}
+ body {
+        font-family: 'Segoe UI';
+ }
+
+ #after_submit {
+     visibility: hidden;
+ }
